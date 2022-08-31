@@ -1,0 +1,52 @@
+body {
+  background-color: sienna;
+}
+* {
+  color: white;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.name {
+  text-align: center;
+}
+.p {
+  text-align: center;
+}
+
+
+ul {
+    list-style: none;
+} 
+
+.books {
+    text-align: center;
+}
+
+ul li img:hover{
+    opacity: 0.5;
+    
+}
+
+
+.social-media{
+text-align: center;
+
+    
+}
+.social-media i {
+    width: 50px;
+}
+
+.social-media i:hover {
+    
+ color: antiquewhite;
+ cursor: pointer;
+ transform: scale(1,2);
+ 
+
+}

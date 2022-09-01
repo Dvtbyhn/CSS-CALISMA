@@ -1,51 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ürünlerimiz</title>
     <link href="./styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
+
 <body>
-    <div>
-        <h1 class="name">Kitap Evim</h1>
-        <h2 class="name">Ana Sayfa</h2>
-        
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kitap Evim</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./products.html">Ürünlerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about-us.html">Hakkımızda</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container products">
+        <div class="row">
+            <div class="col-sm-4  col-md-4">
+                <div class="card " >
+                    <img src="./image/IMG_1006.JPG" class="card-img-top" alt="Gabriel Garcia">
+                    <div class="card-body">
+                        <h5 class="card-title">Gabriel Garcia</h5>
+                        <p class="card-text">Kırmızı Pazartesi</p>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4  col-md-4">
+                <div class="card" >
+                    <img src="./image/IMG_1007.JPG" class="card-img-top" alt="Dostoyevski">
+                    <div class="card-body">
+                        <h5 class="card-title">Dostoyevski</h5>
+                        <p class="card-text">İnsancıklar</p>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-sm-4  col-md-4">
+                <div class="card" >
+                    <img src="./image/IMG_1015.JPG" class="card-img-top" alt="Jack London">
+                    <div class="card-body">
+                        <h5 class="card-title">Jack London</h5>
+                        <p class="card-text">Martın Eden</p>
+                       
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-sm-4  col-md-4">
+                <div class="card" >
+                    <img src="./image/IMG_1018.JPG" class="card-img-top" alt="Orhan Pamuk">
+                    <div class="card-body">
+                        <h5 class="card-title">Orhan Pamuk</h5>
+                        <p class="card-text">Kara Kitap</p>
+                       
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-sm-4  col-md-4">
+                <div class="card" >
+                    <img src="./image/IMG_1019.JPG" class="card-img-top" alt="Goethe">
+                    <div class="card-body">
+                        <h5 class="card-title">Goethe</h5>
+                        <p class="card-text">Genç Werther'in Acıları</p>
+                    
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-sm-4  col-md-4">
+                <div class="card" >
+                    <img src="./image/IMG_1020.JPG" class="card-img-top" alt="Halit Ziya Uşaklıgil">
+                    <div class="card-body">
+                        <h5 class="card-title">Mai ve Siyah</h5>
+                        <p class="card-text">Halit Ziya Uşaklıgil</p>
+                       
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-sm-4  col-md-4">
+                <div class="card" >
+                    <img src="./image/IMG_1023.JPG" class="card-img-top" alt="Tolstoy">
+                    <div class="card-body">
+                        <h5 class="card-title">Tolstoy</h5>
+                        <p class="card-text">İnsan Neyle Yaşar?</p>
+                        
+                    </div>
+                </div>
+                
+            </div>
+          
+        </div>
     </div>
-        <div class="head">
-            <h2><a href="./index.html" > Ana Sayfa</a> </h2>
-            <h2><a href="./products.html"> Kitaplarımız</a> </h2>
-            <h2><a href="./about-us.html"> Hakkımızda</a> </h2>
-        </div>
-
-        <div class="books">
-            <h2>Kitaplarımız</h2>
-            <ul>
-                <li><img src="./image/IMG_1006.JPG" alt="Gabriel Garcia Marquez" style="height:420px"></li>
-                <h3>Gabriel Garcia Marquez <br> Kırmızı Pazartesi</h3>
-                <li><img src="./image/IMG_1007.JPG" alt="Fyodor Dostoyevski" style="height:420px"></li>
-                <h3>Fyodor Dostoyevski<br> İnsancıklar</h3>
-                <li><img src="./image/IMG_1015.JPG" alt="Jack London" style="height:420px"></li>
-                <h3>Jack London <br> Martin Eden</h3>
-                <li><img src="./image/IMG_1018.JPG" alt="Orhan Pamuk" style="height:420px"></li>
-                <h3> Orhan Pamuk <br> Kara Kitap</h3>
-                <li><img src="./image/IMG_1019.JPG" alt="Goethe " style="height:420px"></li>
-                <h3>Goethe <br> Genç Werther'İn Acıları</h3>
-                <li><img src="./image/IMG_1020.JPG" alt="Halit Ziya Uşaklıgil" style="height:420px"></li>
-                <h3> Halit Ziya Uşaklıgil<br>Mai ve Siyah</h3>
-                <li><img src="./image/IMG_1022.JPG" alt="Victor Hugo" style="height:420px"></li>
-                <h3>Victor Hugo <br>Bir İdam Mahkumunun Son Günü </h3>
-                <li><img src="./image/IMG_1023.JPG" alt="Tolstoy" style="height:420px"></li>
-                <h3> Tolstoy<br> İnsan Neyle Yaşar?</h3>
-                <li><img src="./image/IMG_1024.JPG" alt="Sahabattin Ali"style="height:420px"></li>
-                <h3>Sahabattin Ali <br>Kuyucaklı Yusuf </h3>
-                <li><img src="./image/IMG_1025.JPG" alt="Friedrich Nietzsche"style="height:420px"></li>
-                <h3>Friedrich Nietzsche <br>Böyle Buyurdu Zerdüşt </h3>
-                <li><img src="./image/IMG_1026.JPG "alt=""style="height:420px"></li>
-                <h3> Cervantes<br> Don Kişot </h3>
-
-            </ul>
-        </div>
 </body>
+
 </html>

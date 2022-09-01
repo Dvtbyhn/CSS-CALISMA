@@ -1,41 +1,24 @@
 body {
-  background-color: sienna;
-}
-* {
-  color: white;
-}
-
-.head {
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-}
-
-.name {
-  text-align: center;
-}
-.p {
-  text-align: center;
+  background-color:  #E9ECEF;
 }
 
 
-ul {
-    list-style: none;
-} 
 
-.books {
-    text-align: center;
+
+.text {
+  text-align:  center;
+  margin-top: 100px;
 }
 
-ul li img:hover{
-    opacity: 0.5;
-    
+.products img:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 
 .social-media{
 text-align: center;
-
+margin-top: 20px;
     
 }
 .social-media i {
@@ -44,9 +27,17 @@ text-align: center;
 
 .social-media i:hover {
     
- color: antiquewhite;
+ color: black;
  cursor: pointer;
- transform: scale(1,2);
+ transform: scale(1,1.5);
  
 
 }
+
+
+#btn-one{
+  color: #E9ECEF;
+  
+}
+
+
